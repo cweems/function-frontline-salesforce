@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken');
 const jsforce = require('jsforce');
 const axios = require('axios');
-var querystring = require('querystring');
+const querystring = require('querystring');
 
 exports.handler = async function (context, event, callback) {
   let response = new Twilio.Response();
